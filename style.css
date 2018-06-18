@@ -41,7 +41,7 @@
 	position: absolute;
 	top: 7px;
 	float: left;
-	font-family: Roboto;
+	font-family: sans-serif;
     
     transition: background-color 0.05s, color 0.05s;
     background: #224b7 url(/images/svg_icons/ic_head_loupe.svg) no-repeat;
@@ -65,7 +65,7 @@
  .switch-language {
 	float: right;
 	color: white;
-	font-family: Roboto;
+	font-family: sans-serif;
 	font-size: 12.5px;
 	font-weight: 700;
 	text-align: center;
@@ -81,7 +81,7 @@
 	background-color: #edeef0;
 	height: auto;
 	width: 100%;
-	font-family: Roboto;
+	font-family: sans-serif;
 	font-weight: 400;
 	font-size: 14px;
  }
@@ -273,12 +273,12 @@
 	line-height: 20px;
 	border-radius: 3px;
 	color: white;
-	font-family: Helvetica;
+	font-family: sans-serif;
 	float: left;
 }
 .forgot {
 	font-size: 13px;
-	font-family: Roboto;
+	font-family: sans-serif;
 	line-height: 20px;
 	margin-top: 12px;
 	text-align: center;
@@ -331,7 +331,7 @@
  .data-registr {
 	margin: 0 0 10px 1px;
 	font-weight: 500;
-	font-family: Roboto;
+	font-family: sans-serif;
 	color: #939393;
  }
  .hint_icon {
@@ -370,7 +370,7 @@
 	outline: none;
 	border: none;
 	color: white;
-	font-family: Roboto;
+	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 500;
@@ -417,7 +417,7 @@
     background-color: #edeef0;
     text-decoration: none;
     font-size: 13px;
-    font-family: Roboto;
+    font-family: sans-serif;
     color: #828282;
 }
 *{/border: 1px solid red;}
