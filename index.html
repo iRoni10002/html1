@@ -2,33 +2,174 @@
 <html>
 	<head>
 		<meta charset="utf-8" /> 
-		<link href='style.css' rel='stylesheet'>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<title>Добро пожаловать | ВКонтакте</title>
+		<link href="style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <title>Добро пожаловать | ВКонтакте</title>
 	</head>
 	<body>
-		<div class='content'>
-			<div class='header'>
-				<div class='header-content'>
-					<img src='ic_head_logo.svg'>
-					<input type='text' value='         Поиск' class='search'>
-					<div class='switch-language'>Switch to English</div>
+		<div class="content">
+			<div class="header">
+				<div class="header-content">
+					<img src="image/ic_head_logo.svg">
+					<input type="text" value placeholder="Поиск" class="search">
+					<div class="switch-language">Switch to English</div>
 				</div>
 			</div>
-			<div class='main'>
-				<div class='main-content'>
-					<div class='main-left'>
-						<div class='text-mobile'>
+			<div class="main">
+				<div class="main-content">
+					<div class="main-left">
+						<div class="text-mobile">
 							<h1>ВКонтакте для мобильных устройств</h1>
 							<p>Установите официальное мобильное приложение ВКонтакте и оставайтесь в курсе новостей Ваших друзей, где бы Вы ни находились.</p>
 						</div>
+                        <div class="mobile-device">
+                            <div class="mobile-android">
+                                <a href="#">
+                                    <div class="mobile-android-img"></div>
+                                </a>
+                                <button class="mobile-android-btn">
+                                    <span class="android-icon"></span>
+                                    VK для Android
+                                </button>
+                            </div>
+                            <div class="mobile-wp">
+                                <a href="#">
+                                    <div class="mobile-wp-img"></div>
+                                </a>
+                                <button class="mobile-wp-btn">
+                                    <span class="wp-icon"></span>
+                                    VK для WP
+                                </button>
+                            </div>
+                            <div class="mobile-ios">
+                                <a href="#">
+                                    <div class="mobile-ios-img"></div>
+                                </a>
+                                <button class="mobile-ios-btn">
+                                    <span class="ios-icon"></span>
+                                    VK для iPhone
+                                </button>
+                            </div>
+                        </div>
+                        <a href="https://vk.com/products" class="all_product">
+                            <font class="all_product-text">Все продукты</font>
+                            <span class="all_product-arrow"></span>
+                        </a>
 					</div>
-					<div class='main-right'>
-						<div class='login'></div>
-						<div class='registr'></div>
+					<div class="main-right">
+						<div class="login">
+                            <input type="text" value placeholder="Телефон или email" class="login-input">
+                            <input type="password" value placeholder="Пароль" class="login-input">
+                            <button class="login-btn">Войти</button>
+                            <div class="forgot"><a href="#">Забыли пароль?</a></div>
+                        </div>
+						<div class="registr">
+                            <h2>Впервые ВКонтакте?</h2>
+                            <div class="momentum-registr">Моментальная регистрация</div>
+                            <input type="text" value placeholder="Ваше имя" class="registr-input">
+                            <input type="text" value placeholder="Ваша фамилия" class="registr-input">
+                            <div class="data-registr">
+                                Дата рождения
+                                <span class="hint_icon" data-title="<b>Заполненная дата рождения</b> позволит друзьям легче найти Вас, а также подбирать для Вас интересные материалы.<br>Вы сможете всегда настроить видимость Вашей даты рождения в редактировании профиля." onmouseover="showHint(this);">
+                            </div>
+                            <div class="data-select">
+                                <select class="data-day">
+                                    <option value="">День</option>
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                    <option value="">7</option>
+                                    <option value="">8</option>
+                                    <option value="">9</option>
+                                    <option value="">10</option>
+                                    <option value="">11</option>
+                                    <option value="">12</option>
+                                    <option value="">13</option>
+                                    <option value="">14</option>
+                                    <option value="">15</option>
+                                    <option value="">16</option>
+                                    <option value="">17</option>
+                                    <option value="">18</option>
+                                    <option value="">19</option>
+                                    <option value="">20</option>
+                                    <option value="">21</option>
+                                    <option value="">22</option>
+                                    <option value="">23</option>
+                                    <option value="">24</option>
+                                    <option value="">25</option>
+                                    <option value="">26</option>
+                                    <option value="">27</option>
+                                    <option value="">28</option>
+                                    <option value="">29</option>
+                                    <option value="">30</option>
+                                    <option value="">31</option>
+                                </select>
+                                <select class="data-mounth data-day">
+                                    <option value="">Месяц</option>
+                                    <option value="">Января</option>
+                                    <option value="">Февраля</option>
+                                    <option value="">Марта</option>
+                                    <option value="">Мая</option>
+                                    <option value="">Апреля</option>
+                                    <option value="">Июня</option>
+                                    <option value="">Июля</option>
+                                    <option value="">Августа</option>
+                                    <option value="">Сентября</option>
+                                    <option value="">Октября</option>
+                                    <option value="">Ноября</option>
+                                    <option value="">Декабря</option>
+                                </select>
+                                <select class="data-year data-day">
+                                    <option value="">Год</option>
+                                    <option value="">2004</option>
+                                    <option value="">2003</option>
+                                    <option value="">2002</option>
+                                    <option value="">2001</option>
+                                    <option value="">2000</option>
+                                    <option value="">1999</option>
+                                    <option value="">1998</option>
+                                    <option value="">1997</option>
+                                    <option value="">1996</option>
+                                    <option value="">1995</option>
+                                    <option value="">1994</option>
+                                    <option value="">1993</option>
+                                    <option value="">1992</option>
+                                    <option value="">1991</option>
+                                </select>
+                            </div>
+                            <button class="continue-registr">Продолжить регистрацию</button>
+                            <div class="facebook-registr">
+                                <div class="fcbk-icon"></div>
+                                <div>Продолжить с Facebook</div>
+                            </div>
+                        </div>
 					</div>
 				</div>
 			</div>
+            <div class="footer">
+                <div class="footer-nav">
+                    <div class="copy">
+                        <a href="/about">ВКонтакте</a>
+                         © 2018
+                    </div>
+                    <div class="languages">
+                        Языки:
+                        <a class="footer_lang_link">English</a>
+                        <a class="footer_lang_link">Русский</a>
+                        <a class="footer_lang_link">Українська</a>
+                        <a class="footer_lang_link">все языки »</a>
+                    </div>
+                    <div class="links">
+                        <a class="bnav_a" href="https://vk.com/about">о компании</a>
+                        <a class="bnav_a" href="https://vk.com/terms">правила</a>
+                        <a class="bnav_a" href="https://vk.com/ads" style>реклама</a>
+                        <a class="bnav_a" href="https://vk.com/dev">разработчикам</a>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</body>
 </html>
